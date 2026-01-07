@@ -37,3 +37,6 @@ See [claude.md](./claude.md) for detailed style rules.
 ## License
 
 MIT
+
+---
+Created for the AI development community.
