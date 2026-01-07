@@ -39,4 +39,4 @@ See [claude.md](./claude.md) for detailed style rules.
 MIT
 
 ---
-Created for the AI development community. Contributions welcome.
+Created for the AI development community. Contributions welcome. PRs open.
