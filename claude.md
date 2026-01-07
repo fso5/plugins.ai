@@ -10,6 +10,7 @@ agents/      Specialized agents that run in their own context
 prompts/     Reusable prompt templates and procedures
 claudes/     CLAUDE.md project templates
 commands/    User-invoked slash commands (/review, /deploy, etc.)
+hooks/       Event handlers (hooks.json + action scripts)
 ```
 
 ## Adding Components
