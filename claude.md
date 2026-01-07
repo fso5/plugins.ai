@@ -5,13 +5,11 @@ npm for AI. Reusable components for Claude and AI agents.
 ## Structure
 
 ```
-skills/      Slash command capabilities (/review, /deploy, etc.)
-agents/      Specialized agent configurations
-prompts/     Reusable prompt templates
+skills/      Model-invoked capabilities (Claude uses automatically based on context)
+agents/      Specialized agents that run in their own context
+prompts/     Reusable prompt templates and procedures
 claudes/     CLAUDE.md project templates
-commands/    Command definitions
-hooks/       Pre/post command hooks
-mcps/        MCP server configurations
+commands/    User-invoked slash commands (/review, /deploy, etc.)
 ```
 
 ## Adding Components
@@ -30,7 +28,7 @@ requires:           # Won't work without these (optional)
   - skills/thing
   - prompts/other
 suggests:           # Works better with these (optional)
-  - hooks/related
+  - prompts/related
 ---
 ```
 

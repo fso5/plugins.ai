@@ -6,13 +6,11 @@ A package registry for AI components. Like npm, but for skills, agents, prompts,
 
 | Folder | Contains |
 |--------|----------|
-| `skills/` | Slash command capabilities |
-| `agents/` | Specialized agent configurations |
-| `prompts/` | Reusable prompt templates |
+| `skills/` | Model-invoked capabilities (Claude uses automatically) |
+| `agents/` | Specialized agents that run in their own context |
+| `prompts/` | Reusable prompt templates and procedures |
 | `claudes/` | CLAUDE.md project templates |
-| `commands/` | Command definitions |
-| `hooks/` | Pre/post command hooks |
-| `mcps/` | MCP server configurations |
+| `commands/` | User-invoked slash commands |
 
 ## Usage
 
