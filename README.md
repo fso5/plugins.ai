@@ -12,6 +12,7 @@ A package registry for AI components. Like npm, but for skills, agents, prompts,
 | `claudes/` | CLAUDE.md project templates |
 | `commands/` | User-invoked slash commands |
 | `hooks/` | Event handlers (hooks.json + action scripts) |
+| `mcps/` | MCP server configurations |
 
 ## Usage
 
